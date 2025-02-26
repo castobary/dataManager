@@ -1,3 +1,5 @@
 ^dataManager\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^config\.R$
+^data-man$
