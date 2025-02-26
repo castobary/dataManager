@@ -1,5 +1,5 @@
 Package: dataManager
-Title: What the Package Does (One Line, Title Case)
+Title: Functions for Common data management Tasks
 Version: 0.0.0.9000
 Authors@R: 
     person("Castory", "Munishi", , "castory.munishi@appliedepi.org", role = c("aut", "cre"),
@@ -12,3 +12,5 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)
 LazyData: true
+Imports: 
+    stringr
