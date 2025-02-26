@@ -20,7 +20,8 @@ A named character vector where the old names are the names and the new names are
 This function generates a named vector that maps old variable names to new names.
 }
 \examples{
-dd <- data.frame(old_name = c("Patient ID", "Patient's Age", "Patient Sex"), new_name = c("ID", "age", "sex"))
+dd <- data.frame(old_name = c("Patient ID", "Patient's Age", "Patient Sex"),
+                new_name = c("ID", "age", "sex"))
 create_dd(dd, "old_name", "new_name")
 # Named vector: c(Patient ID = "ID", B = "age", C = "sex")
 }
