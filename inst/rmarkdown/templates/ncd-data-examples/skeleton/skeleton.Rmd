@@ -1,0 +1,22 @@
+---
+title: "Using NCD data"
+author: "Castory Munishi"
+date: "26/02/2025"
+output: html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load the package
+
+```{r}
+library(dataManager)
+```
+
+## Show the package data
+
+```{r}
+ncd_data
+```
